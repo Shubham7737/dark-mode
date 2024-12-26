@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+i{
+    font-size: 50px;
+    font-weight: bold; 
+} 
+
+.dark-mode{
+    background-color: black;
+    transition-duration: 2s;
+}
+.ri-sun-line,.ri-moon-line{
+    transition-duration: 2s;
+}
